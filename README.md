@@ -7,8 +7,6 @@ Singleton design pattern is a creational design pattern which allow us to create
 
 ### For a Single-Threaded Application
 
-To implement Singleton in a single-threaded application:
-
 1. Create a private and static instance variable of the same class.
 2. Make the constructor private so that objects cannot be created from
    outside the class.
@@ -25,3 +23,16 @@ To implement Singleton in a single-threaded application:
 5. In the first check, if `obj == null`, it goes inside the condition; otherwise, it returns the object.
 6. Inside the condition, the lock will be applied to the thread. If `obj == null`, the object will be created and the lock will be released; 
    otherwise, the existing object will be returned.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+### BUILDER DESIGN PATTERN
+## What is Builder Design Pattern?
+Builder Design Pattern is a creational design pattern which is used when we want to create an object 
+step by step with proper validation.
+
+## Implementation
+1. I have used a Student class which has some private attributes (name, email, contactNo) which should not be null, blank, or incorrect.
+2. To apply those validations, I have used an inner class called StudentBuilder, which has all the attributes of the Student class. 
+   It is static because it should be accessible by other classes without creating a Student object.
+3. Then I have implemented a static method which returns the object of the StudentBuilder class.
+4. By using the StudentBuilder class, we can set the attributes and validate those attributes inside the StudentBuilder class.
+5. We have methods inside the StudentBuilder class which I have used for setting the values of the attributes.

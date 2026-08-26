@@ -1,4 +1,3 @@
-package com.ParkingLot.ParkingLot2.CreationalDesignPattern;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
