@@ -1,5 +1,3 @@
-package com.ParkingLot.ParkingLot2.CreationalDesignPattern.FactoryDesignPattern;
-
 public class MySqlQuery implements DbQuery{
     @Override
     public String get(String id) {

@@ -1,5 +1,3 @@
-package com.ParkingLot.ParkingLot2.CreationalDesignPattern.FactoryDesignPattern;
-
 public class MongoDbQuery implements DbQuery{
     @Override
     public String get(String id) {

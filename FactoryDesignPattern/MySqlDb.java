@@ -1,5 +1,3 @@
-package com.ParkingLot.ParkingLot2.CreationalDesignPattern.FactoryDesignPattern;
-
 public class MySqlDb implements DbConnection {
     @Override
     public String connectDb(String username, String password, String url) {
