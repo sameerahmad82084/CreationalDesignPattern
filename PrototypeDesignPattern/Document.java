@@ -1,4 +1,3 @@
-package com.ParkingLot.ParkingLot2.CreationalDesignPattern.PrototypeDesignPattern;
 
 public class Document implements DocumentPrototype {
     private String title;

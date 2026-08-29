@@ -1,5 +1,3 @@
-package com.ParkingLot.ParkingLot2.CreationalDesignPattern.PrototypeDesignPattern;
-
 import java.util.HashMap;
 
 public class DocumentProtoTypeRegistry {
