@@ -1,3 +1,4 @@
+
 public class MongoDbQuery implements DbQuery{
     @Override
     public String get(String id) {
